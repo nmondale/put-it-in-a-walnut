@@ -3,8 +3,8 @@
 import { useState, useRef, useEffect } from "react";
 import Walnut from "./Walnut";
 import NutMeat from "./NutMeat";
-import MightyTree from "../assets/MightyTree.svg";
-import Lippie from "../assets/Lippie.svg";
+import MightyTree from "/public/assets/mightytree.svg";
+import Lippie from "/public/assets/lippie.svg";
 import Dialog from "./Dialog";
 import "../styles/Styles.css";
 

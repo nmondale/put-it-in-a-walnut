@@ -1,6 +1,6 @@
 "use client";
 import "./styles/Styles.css";
-import MightyTree from "./assets/MightyTree.svg";
+import MightyTree from "/public/assets/mightytree.svg";
 import Mascot from "./components/Mascot";
 import { useState } from "react";
 import Walnut from "./components/Walnut";

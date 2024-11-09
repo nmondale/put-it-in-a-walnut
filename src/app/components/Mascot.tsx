@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import Hello from "../assets/hello.svg";
-import Down from "../assets/down.svg";
-import Standard from "../assets/standard.svg";
-import Whisper from "../assets/whisper.svg";
+import Hello from "/public/assets/hello.svg";
+import Down from "/public/assets/down.svg";
+import Standard from "/public/assets/standard.svg";
+import Whisper from "/public/assets/whisper.svg";
 import Dialog from "./Dialog";
 
 type MascotMode = "hello" | "down" | "standard" | "whisper";
