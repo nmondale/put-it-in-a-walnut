@@ -30,7 +30,7 @@ export default function Home() {
     // hange to standard mode
     setTimeout(() => {
       setMascotMode("standard");
-      setMascotMessage("ok im gonna tell the tree");
+      setMascotMessage("ok im gonna go tell the tree be right back");
     }, 4000);
 
     // change to whisper mode and move to tree
@@ -46,7 +46,7 @@ export default function Home() {
     setTimeout(() => {
       setMascotMode("standard");
       setMascotMessage(
-        "ok she said the walnut is gonna take a sec to grow but once its ready you can click on it to look at it closer"
+        "she said the walnut is gonna take a sec to grow but once its ready you can click on it to look at it closer"
       );
       document
         .querySelector(".mascot-wrapper")
@@ -73,10 +73,10 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen relative">
       <div className="horizon-container" />
-      <div className="flex items-center justify-start absolute top-[37%] -translate-y-1/2 w-full pl-[5%]">
-        <div className="flex flex-col w-[50%]">
+      <div className="flex flex-col sm:flex-row justify-start pl-[5%] min-h-screen">
+        <div className="flex flex-col w-full sm:w-[50%] py-8">
           <h1 className="title">
             put it in a <br /> &nbsp; walnut
           </h1>
@@ -95,7 +95,7 @@ export default function Home() {
             disabled={isProcessing}
             className={`bg-black border p-4 mb-[-1px] h-[200px] resize-none ${
               isProcessing
-                ? "opacity-50 cursor-not-allowed text-black "
+                ? "cursor-not-allowed text-black "
                 : "border-white text-white"
             }`}
             placeholder="type your message here...."
@@ -103,17 +103,17 @@ export default function Home() {
           <button
             onClick={handleSubmit}
             disabled={isProcessing}
-            className={`bg-black border border-white py-5 px-4 transition-colors submit-button ${
+            className={`bg-black border border-white py-5 px-4 transition-colors submit-button !cursor-pointer ${
               isProcessing
-                ? "opacity-50 cursor-not-allowed "
-                : "hover:submit-button-hover"
+                ? "cursor-not-allowed hover:bg-black hover:text-gray-500 text-gray-500"
+                : "hover:bg-white hover:text-black"
             }`}
           >
             give your message to the mighty tree
           </button>
         </div>
       </div>
-      <div className="absolute bottom-[20vh] left-2/3 w-[50%]">
+      <div className="absolute bottom-0 sm:bottom-[20vh] left-0 sm:left-2/3 w-full sm:w-[50%]">
         <MightyTree width="45%" height="45%" className="mighty-tree" />
         {walnutText && (
           <div className="absolute top-[41.5%] left-[21%] origin-top">

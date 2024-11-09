@@ -189,21 +189,21 @@ export default function WalnutModal({
     <div className="flex flex-col h-full border border-white ml-[-1px]">
       <button
         onClick={handleClose}
-        className="flex-1 py-2 px-4 text-white hover:bg-white hover:text-black text-left"
+        className="flex-1 py-2 px-4 text-white hover:bg-white hover:text-black text-left cursor-pointer"
       >
-        ✣ close this screen
+        · close this screen
       </button>
       <button
         onClick={handleDownload}
-        className="flex-1 border-t border-white py-2 px-4 text-white hover:bg-white hover:text-black text-left"
+        className="flex-1 border-t border-white py-2 px-4 text-white hover:bg-white hover:text-black text-left cursor-pointer"
       >
-        ↶ download walnut pic
+        · download walnut pic
       </button>
       <button
         onClick={handleReset}
-        className="flex-1 border-t border-white py-2 px-4 text-white hover:bg-white hover:text-black text-left"
+        className="flex-1 border-t border-white py-2 px-4 text-white hover:bg-white hover:text-black text-left cursor-pointer"
       >
-        ↩ make another walnut
+        · make another walnut
       </button>
     </div>
   );

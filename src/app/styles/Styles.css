@@ -7,13 +7,14 @@
 
 
 .horizon-container {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   height: 20vh;
   border-top: 1px solid white;
   background-color: black;
+  z-index: -1;
 }
 
 .mighty-tree path,
@@ -40,12 +41,6 @@
 
 .submit-button {
   text-align: left;
-}
-
-.submit-button:hover {
-    background-color: white;
-    color: black;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .scale-0 {
@@ -87,7 +82,33 @@
 
 .lippie-container {
   position: absolute;
-  pointer-events: none;
   z-index: 1000;
   transition: opacity 300ms ease-in-out;
+}
+
+@media (max-width: 400px) {
+  .mascot-by-tree .mascot-svg {
+    transform: translate(calc(45vw), 30vh);
+    z-index: 10;
+  }
+
+  .title {
+    font-size: 4rem;
+    position: relative;
+    z-index: 10;
+  }
+
+  .horizon-container {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .mascot-by-tree .mascot-svg {
+    transform: translate(calc(35vw), 20vh);
+  }
+
+  .title {
+    font-size: 3rem;
+  }
 }

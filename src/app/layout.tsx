@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Image Production Machine",
-  description: "Create striped art from images",
+  title: "❉ put it in a walnut",
+  description: "put your message in a walnut",
 };
 
 export default function RootLayout({
