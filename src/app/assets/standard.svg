@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.25 293.26">
+  <defs>
+    <style>
+      .d {
+        fill: currentColor;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="Layer 1">
+    <g>
+      <polygon class="d" points="62.82 115.52 0 7.77 183.87 0 142.5 138.21 202.25 215.12 183.87 230.44 134.84 166.08 150.16 285.49 128.71 285.49 116.45 213.58 101.13 293.26 73.55 293.26 84.27 153.83 52.1 224.31 33.71 216.65 62.82 115.52"/>
+      <circle class="d" cx="103.64" cy="72.93" r="41.88"/>
+      <ellipse class="d" cx="92.69" cy="79.19" rx="6.84" ry="8.5" transform="translate(-16.37 133.68) rotate(-67.06)"/>
+      <ellipse class="d" cx="121.57" cy="72.93" rx="8.5" ry="6.84" transform="translate(-18.81 53.15) rotate(-22.94)"/>
+      <polyline class="d" points="103.64 91.94 113.68 100.66 117.16 89.33"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "PicNic";
+  src: url("/fonts/PicNic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
+.horizon-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20vh;
+  border-top: 1px solid white;
+  background-color: black;
+}
+
+.mighty-tree path,
+.mighty-tree polygon,
+.mighty-tree line {
+  fill: black !important;
+  stroke: white !important;
+  stroke-width: 2px !important;
+}
+
+.mascot-container path,
+.mascot-container polygon,
+.mascot-container line,
+.mascot-container ellipse,
+.mascot-container circle {
+  fill: black !important;
+  stroke: white !important;
+  stroke-width: 2px !important;
+}
+
+.mascot-by-tree .mascot-svg {
+  transform: translate(calc(65vw), 40vh);
+}
+
+.submit-button {
+  text-align: left;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.scale-0 {
+  transform: scale(0, 0);
+  transform-origin: top;
+}
+
+.scale-100 {
+  transform: scale(1, 1);
+  transform-origin: top;
+}
+
+.grow-animation {
+  transition: transform 4s;
+}
+
+.title {
+  color: black;
+  text-align: left;
+  font-family: "PicNic", sans-serif;
+  font-size: 6rem;
+  line-height: 0.75;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+  -webkit-text-stroke: 1px white;
+  -moz-text-stroke: 1px white;
+  -ms-text-stroke: 1px white;
+}
+
+.lippie-svg path,
+.lippie-svg polygon,
+.lippie-svg line,
+.lippie-svg circle,
+.lippie-svg ellipse {
+  fill: black !important;
+  stroke: white !important;
+  stroke-width: 7px !important;
+}
+
+.lippie-container {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+  transition: opacity 300ms ease-in-out;
+}
