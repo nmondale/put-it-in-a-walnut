@@ -1,6 +1,8 @@
-# Put It In A Walnut 🌰
+# 🌰 put it in a walnut 🌰
 
 **put it in a walnut** is a web application that transforms your messages into a unique walnut. I evoke J.R. Carpenter's [Handmade Web](https://luckysoap.com/statements/handmadeweb.html) in the creation of a webpage that suggests slowness and smallness as a forms of resistance.
+
+Access the application [here](https://walnut-generator.vercel.app/).
 
 ## overview
 
